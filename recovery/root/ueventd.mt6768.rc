@@ -142,11 +142,3 @@
 
 # Resume-on-Reboot
 /dev/access-kregistry     0660   system     system
-
-#FPC fingerprint
-/sys/bus/platform/devices/fingerprint  clk_enable 0660 system system
-/sys/bus/platform/devices/fingerprint  irq 0600 system system
-/sys/bus/platform/devices/fingerprint  hw_reset 0200 system system
-/sys/bus/platform/devices/fingerprint wakeup_enable 0600 system system
-/sys/bus/platform/devices/fingerprint  fingerdown_wait 0600 system system
-
